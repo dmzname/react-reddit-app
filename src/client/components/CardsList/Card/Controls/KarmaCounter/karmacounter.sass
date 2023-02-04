@@ -1,0 +1,31 @@
+.root
+	@media all and (min-width: 1024px)
+		display: flex
+		align-items: center
+		justify-content: center
+		flex-flow: column nowrap
+	@media all and (min-width: 1540px)
+		& > button.up:hover > svg > path
+			fill: var(--green)
+		& > button.down:hover > svg > path
+			fill: var(--orange)
+
+
+.karmaValue
+	color: var(--greyC4)
+	font-size: 12px
+	line-height: 14px
+	padding-right: 4px
+	@media all and (min-width: 1024px)
+		padding: 7px 0
+		font-size: 14px
+		line-height: 16px
+		color: var(--black)
+
+.down
+	transform: rotate(180deg)
+
+.up
+	padding-right: 4px
+	@media all and (min-width: 1024px)
+		padding: 0
