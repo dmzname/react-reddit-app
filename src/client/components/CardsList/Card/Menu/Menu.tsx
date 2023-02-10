@@ -1,11 +1,18 @@
 import React from 'react';
-import styles from './menu.sass';
+import { Dropdown } from './Dropdown';
 import { MenuButton } from './MenuButton';
+import styles from './menu.sass';
+import { menuList } from './menuList';
 
 export function Menu() {
 	return (
-		<div className={styles.root}>
-			<MenuButton />
-		</div>
+		<Dropdown className={styles.root} button={<MenuButton />}>
+			{menuList.map((el) => (
+				<li key={el.id} onClick={() => console.log(el.id)}>
+					{el.icon}
+					{el.text}
+				</li>
+			))}
+		</Dropdown>
 	);
 }

@@ -11,6 +11,14 @@ button
 	padding: 20px 20px 10px
 	display: flex
 	flex-flow: row wrap
+	transition: border .3s ease
+	border: 1px solid transparent
+
+	h2
+		margin: 0 0 10px
+		font-size: 20px
+		font-weight: 400
+		line-height: 1.5
 
 	& > *, .textContent > *
 		flex: 1 1 100%
@@ -19,7 +27,7 @@ button
 		padding: 13px 0 0
 
 	&:hover, &:focus-within
-		h2 a
+		h2
 			color: var(--orange)
 
 	@media all and (min-width: 1024px)
@@ -31,10 +39,10 @@ button
 			flex: 0 0
 		& > * + *
 			padding: 0
-			
+
 	@media all and (min-width: 1540px)
 		padding: 20px 60px
 		max-height: 147px
 		cursor: pointer
 		&:hover, &:focus-within
-			outline: 1px solid var(--grey-demi-dark)
+			border: 1px solid var(--greyC4)

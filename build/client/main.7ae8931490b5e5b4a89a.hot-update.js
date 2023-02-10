@@ -1,0 +1,30 @@
+"use strict";
+/*
+ * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdatereact_reddit_app"]("main",{
+
+/***/ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/client/components/CardsList/Card/Menu/menu.sass":
+/*!**********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/client/components/CardsList/Card/Menu/menu.sass ***!
+  \**********************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \".menu__root-Tv9V3 {\\n  position: absolute;\\n  top: 10px;\\n  right: 10px;\\n  padding: 0;\\n  align-self: center;\\n}\\n@media all and (min-width: 1024px) {\\n  .menu__root-Tv9V3 {\\n    position: relative;\\n    order: 2;\\n    display: flex;\\n    align-items: center;\\n    flex: 0 0;\\n    top: unset;\\n    right: unset;\\n    margin: 0 0 0 auto;\\n  }\\n}\\n.menu__root-Tv9V3 > button {\\n  width: 40px;\\n  height: 40px;\\n  display: flex;\\n  align-items: center;\\n  justify-content: center;\\n  border-radius: 31px;\\n}\\n.menu__root-Tv9V3 > button:active {\\n  background-color: rgba(51, 51, 51, 0.1);\\n}\\n@media all and (min-width: 1024px) {\\n  .menu__root-Tv9V3 > button {\\n    align-self: center;\\n    transform: unset;\\n  }\\n}\\n@media all and (min-width: 1366px) {\\n  .menu__root-Tv9V3 > button {\\n    transform: rotate(90deg);\\n  }\\n  .menu__root-Tv9V3 > button:hover {\\n    background-color: rgba(51, 51, 51, 0.1);\\n  }\\n}\\n.menu__root-Tv9V3 ul {\\n  position: absolute;\\n  top: calc(100% + 5px);\\n  right: 0;\\n  z-index: 10;\\n  padding: 0 20px;\\n  display: flex;\\n  flex-direction: column;\\n  align-items: flex-start;\\n  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);\\n  border-radius: 3px;\\n  background-color: var(--white);\\n}\\n@media all and (min-width: 1024px) {\\n  .menu__root-Tv9V3 ul {\\n    padding: 15px 20px;\\n  }\\n}\\n.menu__root-Tv9V3 ul li {\\n  padding: 10px 0;\\n  width: 100%;\\n  display: flex;\\n  align-items: center;\\n  color: var(--grey99);\\n  font-size: 14px;\\n  transition: color 0.3s ease;\\n}\\n.menu__root-Tv9V3 ul li:nth-child(1), .menu__root-Tv9V3 ul li:nth-child(2), .menu__root-Tv9V3 ul li:nth-child(4) {\\n  display: none;\\n}\\n.menu__root-Tv9V3 ul li svg path {\\n  transition: fill 0.3s ease;\\n}\\n@media (hover: hover) {\\n  .menu__root-Tv9V3 ul li:hover {\\n    color: var(--orange);\\n  }\\n  .menu__root-Tv9V3 ul li:hover svg path {\\n    fill: var(--orange);\\n  }\\n}\\n.menu__root-Tv9V3 ul li:not(:nth-child(3), :last-child) {\\n  border-top: 1px solid var(--greyD9);\\n}\\n.menu__root-Tv9V3 ul li svg {\\n  margin-right: 5px;\\n  width: 16px;\\n}\\n@media all and (min-width: 1024px) {\\n  .menu__root-Tv9V3 ul li:nth-child(1), .menu__root-Tv9V3 ul li:nth-child(2), .menu__root-Tv9V3 ul li:nth-child(4) {\\n    display: block;\\n  }\\n  .menu__root-Tv9V3 ul li:not(:last-child) {\\n    border-top: 1px solid var(--greyD9);\\n  }\\n  .menu__root-Tv9V3 ul li:first-child {\\n    border: none !important;\\n  }\\n}\", \"\"]);\n// Exports\n___CSS_LOADER_EXPORT___.locals = {\n\t\"root\": \"menu__root-Tv9V3\"\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://react-reddit-app/./src/client/components/CardsList/Card/Menu/menu.sass?./node_modules/css-loader/dist/cjs.js??ruleSet%5B1%5D.rules%5B1%5D.use%5B1%5D!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ })
+
+},
+/******/ function(__webpack_require__) { // webpackRuntimeModules
+/******/ /* webpack/runtime/getFullHash */
+/******/ (() => {
+/******/ 	__webpack_require__.h = () => ("66b89f873dfc136e0ba3")
+/******/ })();
+/******/ 
+/******/ }
+);

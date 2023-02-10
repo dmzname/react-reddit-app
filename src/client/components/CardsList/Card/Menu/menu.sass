@@ -1,8 +1,9 @@
 .root
 	position: absolute
-	top: 17px
-	right: 15px
+	top: 10px
+	right: 10px
 	padding: 0
+	align-self: center
 	@media all and (min-width: 1024px)
 		position: relative
 		order: 2
@@ -12,3 +13,79 @@
 		top: unset
 		right: unset
 		margin: 0 0 0 auto
+
+	// Dropdown styles
+	& > button
+		width: 40px
+		height: 40px
+		display: flex
+		align-items: center
+		justify-content: center
+		border-radius: 31px
+
+		&:active
+			background-color: rgba(51, 51, 51, 0.1)
+
+		@media all and (min-width: 1024px)
+			align-self: center
+			transform: unset
+		@media all and (min-width: 1366px)
+			transform: rotate(90deg)
+			&:hover
+				background-color: rgba(51, 51, 51, 0.1)
+
+	ul
+		position: absolute
+		top: calc(100% + 5px)
+		right: 0
+		z-index: 10
+		padding: 0 20px
+		display: flex
+		flex-direction: column
+		align-items: flex-start
+		box-shadow: 0 0 20px rgba(0, 0, 0, 0.15)
+		border-radius: 3px
+		background-color: var(--white)
+		@media all and (min-width: 1024px)
+			padding: 15px 20px
+
+		li
+			padding: 10px 0
+			width: 100%
+			display: flex
+			align-items: center
+			color: var(--grey99)
+			font-size: 14px
+			transition: color .3s ease
+
+			&:nth-child(1),
+			&:nth-child(2),
+			&:nth-child(4)
+				display: none
+
+			svg path
+				transition: fill .3s ease
+
+			@media (hover: hover)
+				&:hover
+					color: var(--orange)
+
+					svg path
+						fill: var(--orange)
+
+			&:not(:nth-child(3), :last-child)
+				border-top: 1px solid var(--greyD9)
+
+			svg
+				margin-right: 5px
+				width: 16px
+
+			@media all and (min-width: 1024px)
+				&:nth-child(1),
+				&:nth-child(2),
+				&:nth-child(4)
+					display: block
+				&:not(:last-child)
+					border-top: 1px solid var(--greyD9)
+				&:first-child
+					border: none !important
